@@ -10,24 +10,45 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
+
   }
   
   .default {
     background-color: $color-background-light-blue;
+
+    @include buttons-transition {
+      background-color: lighten($color-background-light-blue, 15%);
+    }
   }
   
   .error {
     background-color: $color-background-lighter-red;
+
+    @include buttons-transition {
+      background-color: lighten($color-background-lighter-red, 15%);
+    }
   }
   
   .info {
     background-color: $color-background-purple;
+
+    @include buttons-transition {
+      background-color: lighten($color-background-purple, 15%);
+    }
   }
   
   .success {
     background-color: $color-background-light-green;
+
+    @include buttons-transition {
+      background-color: lighten($color-background-light-green, 15%);
+    }
   }
   
   .warning {
     background-color: $color-background-orange;
+
+    @include buttons-transition {
+      background-color: lighten($color-background-orange, 15%);
+    }
   }

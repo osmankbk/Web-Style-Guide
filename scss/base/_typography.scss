@@ -27,7 +27,7 @@
 }
 
 .headline-secondary {
-  font-weight: 300;
+  font-weight: $weight-font-300;
   color: #777;
 }
 
@@ -38,7 +38,7 @@
 
 .blockquote {
   font-size: 1.5em;
-  font-weight: 300;
+  font-weight: $weight-font-300;
   font-style: italic;
   margin-left: 20px;
   padding-left: 20px;
