@@ -2,7 +2,7 @@
 /*              Buttons                          */
 /* ============================================= */
 
-.btn {
+%btn {
     margin-top: 15px;
     width: 100%;
     color: #fff;
@@ -14,6 +14,7 @@
   }
   
   .default {
+    @extend %btn;
     background-color: $color-background-light-blue;
 
     @include buttons-transition {
@@ -22,6 +23,7 @@
   }
   
   .error {
+    @extend %btn;
     background-color: $color-background-lighter-red;
 
     @include buttons-transition {
@@ -30,6 +32,7 @@
   }
   
   .info {
+    @extend %btn;
     background-color: $color-background-purple;
 
     @include buttons-transition {
@@ -38,6 +41,7 @@
   }
   
   .success {
+    @extend %btn;
     background-color: $color-background-light-green;
 
     @include buttons-transition {
@@ -46,6 +50,7 @@
   }
   
   .warning {
+    @extend %btn;
     background-color: $color-background-orange;
 
     @include buttons-transition {
