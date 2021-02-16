@@ -1,6 +1,6 @@
 @mixin buttons-transition {
     &:hover {
-        transition: background-color .7s ease-in .1s;
+        transition: background-color .5s ease-in 0s;
         @content;
     }
 }

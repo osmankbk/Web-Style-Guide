@@ -40,7 +40,7 @@
   background-color: #51ddfc;
 }
 .default:hover {
-  transition: background-color 0.7s ease-in 0.1s;
+  transition: background-color 0.5s ease-in 0s;
   background-color: #9cecfd;
 }
 
@@ -48,7 +48,7 @@
   background-color: #e4757a;
 }
 .error:hover {
-  transition: background-color 0.7s ease-in 0.1s;
+  transition: background-color 0.5s ease-in 0s;
   background-color: #f1b5b8;
 }
 
@@ -56,7 +56,7 @@
   background-color: #927bc1;
 }
 .info:hover {
-  transition: background-color 0.7s ease-in 0.1s;
+  transition: background-color 0.5s ease-in 0s;
   background-color: #bdafd9;
 }
 
@@ -64,7 +64,7 @@
   background-color: #63cc82;
 }
 .success:hover {
-  transition: background-color 0.7s ease-in 0.1s;
+  transition: background-color 0.5s ease-in 0s;
   background-color: #9ddfb0;
 }
 
@@ -72,7 +72,7 @@
   background-color: #fd7856;
 }
 .warning:hover {
-  transition: background-color 0.7s ease-in 0.1s;
+  transition: background-color 0.5s ease-in 0s;
   background-color: #feb4a2;
 }
 
