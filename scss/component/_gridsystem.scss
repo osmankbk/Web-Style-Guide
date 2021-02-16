@@ -21,11 +21,11 @@
 }
 
 .theme.col-1 {
-  background-color: #927bc1;
+  background-color: $color-background-purple;
 }
 
 .theme.col-2 {
-  background-color: #fd7856;
+  background-color: $color-background-orange;
 }
 
 .theme.col-3 {
@@ -57,11 +57,11 @@
 }
 
 .theme.col-10 {
-  background-color: #63cc82;
+  background-color: $color-background-light-green;
 }
 
 .theme.col-11 {
-  background-color: #51ddfc;
+  background-color: $color-background-light-blue;
 }
 
 .theme.col-12 {
