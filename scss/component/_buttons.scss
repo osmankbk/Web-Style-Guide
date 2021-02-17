@@ -18,7 +18,7 @@
     background-color: $color-background-light-blue;
 
     @include buttons-transition {
-      background-color: lighten($color-background-light-blue, 15%);
+      background-color: lighten($color-background-light-blue, $percent-15);
     }
   }
   
@@ -27,7 +27,7 @@
     background-color: $color-background-lighter-red;
 
     @include buttons-transition {
-      background-color: lighten($color-background-lighter-red, 15%);
+      background-color: lighten($color-background-lighter-red, $percent-15);
     }
   }
   
@@ -36,7 +36,7 @@
     background-color: $color-background-purple;
 
     @include buttons-transition {
-      background-color: lighten($color-background-purple, 15%);
+      background-color: lighten($color-background-purple, $percent-15);
     }
   }
   
@@ -45,7 +45,7 @@
     background-color: $color-background-light-green;
 
     @include buttons-transition {
-      background-color: lighten($color-background-light-green, 15%);
+      background-color: lighten($color-background-light-green, $percent-15);
     }
   }
   
@@ -54,6 +54,6 @@
     background-color: $color-background-orange;
 
     @include buttons-transition {
-      background-color: lighten($color-background-orange, 15%);
+      background-color: lighten($color-background-orange, $percent-15);
     }
   }
