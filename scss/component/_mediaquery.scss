@@ -1,7 +1,7 @@
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: $screen-breakpoint) {
+@media (min-width: $min-width) {
 
     .container {
       max-width: 1400px;
