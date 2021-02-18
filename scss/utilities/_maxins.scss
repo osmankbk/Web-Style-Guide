@@ -1,6 +1,6 @@
-@mixin buttons-transition {
+@mixin buttons-transition($color, $percent) {
     &:hover {
         transition: background-color .5s ease-in 0s;
-        @content;
+        background-color: lighten($color, $percent);
     }
 }
